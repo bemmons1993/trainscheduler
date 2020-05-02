@@ -1,0 +1,39 @@
+body {
+    margin: 2% 5%;
+}
+
+.jumbotron {
+    text-align: center;
+    background: #0563faee;
+    color: snow;
+}
+
+h1, p {
+    text-shadow: 0 0 20px #000000;
+}
+
+td {
+    border-right: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    border-top: 0;
+}
+
+th {
+    text-align: center;
+    border-bottom: 2px solid #000000;
+    border-right: 2px solid #000000;
+
+}
+
+th:last-child, td:last-child {
+    border-right: none;
+}
+
+.panel, .jumbotron {
+    border: 5px solid #0505f3;
+    border-radius: 10px;
+}
+
+td {
+    text-align: center;
+}
